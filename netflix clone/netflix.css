@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img{
+    background-image: url("background.jpg");
+    height: 44rem;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+}
+
+.bg-img, .hero, .first, .second, .third {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+
+.opacity{
+    height: 44rem;
+    width: 100%;
+    opacity: 0.66;
+    position: absolute;
+    background-color: black;
+    top: 0;
+    z-index: 0;
+}
+
+.logo{
+    width: 148px;
+    margin-top: 23px;
+    z-index: 2;
+}
+
+.flex{
+    max-width: 74rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.b1{
+    height: 30px;
+    width: 125px;
+    background-color: inherit;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.68);
+    border-radius: 4px;
+    margin: 28px 25px 0 0 ;
+    font-size: 16px;
+    font-family: system-ui;
+    padding-right: 16px;
+    padding-top: 2px;
+}
+
+.icon1{
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.icon2{
+    font-size: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.button{
+    z-index: 2;
+}
+
+.b2{
+    height: 32px;
+    width: 76px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: rgb(219, 42, 42);
+    color: white;
+    font-size: 13px;
+    margin-right: 14px;
+}
+
+.hero{
+    height: 40rem;
+    width: 100vw;
+    display: flex;
+    display: inline;
+    text-align: center;
+    position: absolute;
+    top: 280px;
+}
+
+.p1{
+    font-size: 2.6rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.p2{
+    color:white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 23px;
+    left: 11px;
+
+}
+
+.p3{
+    color: white;
+    font-size: 16.3px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 50px;
+    left: 5px;
+    
+}
+
+.email{
+    height: 54px;
+    width: 350px;
+    color: white;
+    position: relative;
+    top: 65px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 15px;
+    padding-left: 20px;
+    left: 8px;
+}
+
+.start{
+    height: 58px;
+    width: 210px;
+    position: relative;
+    top: 68px;
+    left: 10px;background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: transparent;
+    font-size: 25px;
+}
+
+.dasse{
+    background-color: rgb(42, 40, 40);
+    height: 7.8px;
+    width: 94.9rem;
+}
+
+.first{
+    height: 580px;
+    width: 94.9rem;
+    background-color: black;
+}
+
+.enjoy{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 175px;
+    position: relative;
+    top: 210px;     
+}
+
+.enjoy1{
+    font-size: 49px;
+    font-weight: 900;
+}
+
+.enjoy2{
+    font-size: 24px;
+    width: 605px;
+    position: relative;
+    top: 20px;
+}
+
+
+
+.tv{
+    width: 580px;
+    position: relative;
+    left: 330px;
+    bottom: 60px;
+}
+
+.fvid{
+    width: 430px;
+    position: relative;
+    left: 840px;
+    bottom: 170px;
+    overflow: hidden;
+}
+
+.second{
+    height: 580px;
+    width: 94.9rem;
+    background-color: black;
+}
+
+.dow{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 765px;
+    position: relative;
+    top: 70px;
+}
+
+.d1{
+    font-size: 45px;
+    font-weight: 900;
+    width: 600px;
+}
+
+.d2{
+    font-size: 24px;
+    width: 600px;
+    position: relative;
+    top: 20px;
+}
+
+.third{
+    height: 580px;
+    width: 94.9rem;
+    background-color: black;
+}
+
+.mpic{
+    width: 575px;
+    position: absolute;
+    left: 180px;
+    padding-top: 63px; 
+}
+
+.download{
+    height: 100px;
+    width: 320px;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgba(142, 136, 136, 0.678);
+    border-radius: 12px;
+    position: relative;
+    top: 360px;
+    left: 306px;
+}
+
+.stranger{
+    width: 57.5px;
+    position: relative;
+    top: 8px;
+    left: 12px;
+}
+
+.thing{
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    left: 84px;
+    bottom: 52px;
+}
+
+.dw{
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(70, 98, 237);
+    position: relative;
+    left: 85px;
+    bottom: 48px;
+}
+
+.w{
+    width: 580px;
+}
+
+.two{
+    width: 350px;
+    position: relative;
+    left: 800px;
+    overflow: hidden;
+}
+
+.laptop{
+    position: relative;
+    top: 30px;
+}
+
+.questions{
+    height: 900px;
+    width: 1518px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ask{
+    font-size: 45px;
+    font-weight: 900;
+    width: 700px;
+    position: relative;
+    top: 62px;
+    left: 436px;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 54, 54);
+    padding: 24px;
+    max-width: 50vw;
+    margin: 88px auto;
+    margin-bottom: 10px;
+    transition-property:calc(transition-duration) ;
+    transition-duration: 1s;
+}
+
+.plus{
+    font-size: 25px;
+}
+
+.s{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.question:hover{
+    background-color: rgb(79, 78, 78);
+    
+}
+
+.sget{
+    display: flex;
+    justify-content: center;
+}
+
+.pp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp3{
+
+}
+
+.l{
+    top: 69px;
+    margin-right: 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+footer{
+    max-height: 250px;
+}
+
+.footer-item a {
+    color: rgb(156, 156, 156);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+/* complete */
